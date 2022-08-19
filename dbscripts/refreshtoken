@@ -1,0 +1,1 @@
+db.token.createIndex( { "createdDate": 1 }, { expireAfterSeconds: 86400 } )
