@@ -8,8 +8,8 @@ export default {
     tokens: 'tokens'
   },
   secretToken: {
-    accessTokenSecretKey: 'accessTokenSecretKey!',
-    refreshTokenSecretKey: 'refreshTokenSecretKey',
+    accessTokenSecretKey: process.env.ACCESS_TOKEN_SECRETKEY,
+    refreshTokenSecretKey: process.env.ACCESS_TOKEN_SECRETKEY,
     accessTokenExpiresInMinutes: 15 * 60,
     refreshTokenExpiresInMinutes: 60 * 60 * 24
   } 
